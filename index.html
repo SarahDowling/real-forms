@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+	<head>
+		<meta charset="utf-8">
+		<title>FOrms</title>
+		<meta name="viewport" content="width=device-width, initial-scale= 1">
+		<meta name="handheldfriendly" content="true">
+		<meta name="mobileoptimized" content="240">
+		<link href="css/modules.css" rel="stylesheet">
+		<link href="css/grids.css" rel="stylesheet">
+		<link href="css/typography.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<header class="masthead grid grid-middle">
+			<nav class="unit xs-1 s-1 m-1-2 l-2-3">
+
+			</nav>
+		</header>
+
+		<main>
+			<form action="https://formspree.io/dowl0030@algonquinlive.com" method="post">
+				<div>
+					<label for="name" required>Name</label>
+					<input id="name" name="name">
+				</div>
+
+				<div>
+					<label for="email">Email</label>
+					<input id="email" name="email"> type="email" name="email" required placeholder="you@yours.com">
+				</div>
+
+				<div>
+					<label for="subject">Subject</label>
+					<select id="subject" name="_subject">
+						<option>**Choose one of the following**
+						<option>Pizza</option>
+						<option>Cookies</option>
+						<option>Fresh Spring Rolls</option>
+					</select>
+				</div>
+
+				<div>
+					<fieldset>
+						<legend>What is your favourite treat?</legend>
+							<input name="happy" id="happy" type="radio" name="feels">
+							<label for="happy">Happy</label>
+							<input name="sleepy" id="sleepy" type="radio" name="feels">
+							<label for="sleepy">Sleepy</label>
+							<input name="angry" id="angry" type="radio" name="feels">
+							<label for="angry">Angry</label>
+							<input name="reallytired" id="really tired" type="radio" name="feels">
+							<label for="really tired">Really Tired</label>
+					</fieldset>
+				</div>
+
+				<div>
+					<label for="Message">Message</label>
+					<textarea name="message" id="message"></textarea>
+				</div>
+
+				<div>
+					<button type="submit">Send!</button>
+				</div>
+
+			</form>
+
+		</main>
+
+	</body>
+</html>
